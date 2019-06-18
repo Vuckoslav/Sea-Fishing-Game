@@ -1,0 +1,32 @@
+.loader {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #00ffff;
+	z-index: 99;
+}
+
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0;  
+    background-color: #F0C419;
+    background-image: linear-gradient(to bottom, #F0C419 98.8vh, #F0C419 98.9vh, #2D95BF 99vh, #2D95BF)  
+    
+}
+
+img {
+    display: none;
+}
+
+
+
+canvas {
+    margin-bottom: -2px;
+}
